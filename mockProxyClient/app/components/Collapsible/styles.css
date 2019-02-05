@@ -1,0 +1,22 @@
+.accordion-head {
+    background-color: #b2b8d6;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active-accordion, .accordion-head:hover {
+    background-color: #6f8bc1;
+}
+
+.panel-accordion {
+    background-color: white;
+    display: none;
+    height: 70%;
+  overflow: scroll;
+  padding: 0.0rem;
+}
