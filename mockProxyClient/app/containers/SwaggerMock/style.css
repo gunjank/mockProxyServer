@@ -1,0 +1,9 @@
+.textarea{
+font-smoothing:subpixel-antialiased;
+width:350px;
+min-height: 100px;
+max-height: 200px;
+overflow: 'scroll';
+font-size: 65%;
+transition:box-shadow 0.5s ease;
+  }
